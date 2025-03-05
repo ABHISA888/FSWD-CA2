@@ -1,0 +1,23 @@
+meta {
+  name: POST
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:4000/book
+  body: json
+  auth: none
+}
+
+body:json {
+  {  "title" : "THE ONE WORLD",
+     "author":"VANIDHASH",
+     "genre":"action",
+     "publishedYear":2020,
+     "availableCopies":5,
+     "borrowedBy":"LALITHA"
+       
+  }
+  
+}
